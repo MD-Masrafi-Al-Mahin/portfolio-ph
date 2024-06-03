@@ -144,6 +144,8 @@ button {
 }
 .experience {
     background-image: url(image,logo/BG.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: space-between;
 }
