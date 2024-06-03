@@ -1,0 +1,405 @@
+body {
+     background-color:#1e1e1e; 
+     overflow-x: hidden;
+}
+.container {
+    padding-left: 200px;
+    padding-right: 200px; 
+    padding-top: 70; 
+    text-decoration: none;
+    /* font-family: 'roboto'; */
+    font-family: rubik;
+    color: white;
+    
+}
+
+
+
+/* nav-section-start */
+*{
+    
+}
+.navbar{
+    font-family: sans-serif;
+    color: white; 
+}
+    
+.navdiv {
+    display: flex; align-items: center; justify-content: space-between; font-weight: bolder; font-size: 21px; padding: 7px 0px 7px 0px;
+}
+.logo a{
+    font-size: 32px; font-weight: 700; color: #fd6f00;
+}
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    color: white; font-size: 21px; margin-right: 25px;
+}
+button {
+    background-color: #fd6f00; color: white; font-size: 21px; font-weight: bold; padding: 15px 30px;
+    
+    
+}
+/* nav-section-end */
+
+
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+}
+.content {
+    font-size: x-large;
+    font-weight: 700px;
+    
+}
+.variation {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+    vertical-align: middle;
+    align-items: center;
+/* }
+.first-option {
+    /* justify-content: center; */
+    
+}
+
+.button-option {
+    background-color: #343434;
+    width: 367px;
+    height: 82px;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.portfolio-bt {
+    border: 0;
+    border-radius: 60px;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.button-icon {
+    vertical-align: middle;
+}
+.portfolio-bt2 {
+    padding-top: 25px;
+    background-color: transparent;
+    border: 0;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 60px;
+    text-align: center;
+
+    font-size: 25.69px;
+    font-weight: 400;
+    line-height: 30.44px;
+    text-align: left;
+
+
+}
+/* .up-right-arrow {
+    height: fit-content;
+    
+}
+.button-option i {
+    border-radius: 100px; */
+
+.social-media {
+    padding-top: 50px;
+    word-spacing: 15px;
+}
+
+.rotation-ber {
+    background-color: black;
+    rotate: -3.93deg;
+    padding: 15px;
+    text-overflow: hidden;
+    margin-top: -35px;
+    margin-left: -225px;
+    margin-right: -225px;
+    
+ 
+}
+.rotation-ber-item {
+    white-space: nowrap;
+
+}
+
+.about-me {
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.am-2 {
+    text-align: right;
+}
+.Years {
+    font-size: 40px;
+}
+.experience {
+    background-image: url(image,logo/BG.png);
+    display: flex;
+    justify-content: space-between;
+}
+.ex1 {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ex2 {
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.ex2-1 {
+    border-bottom: 1px solid #FFFFFF;
+}
+.ex2-2 {
+    border-bottom: 1px solid #FFFFFF;
+}
+.ex2-3 {
+    border-bottom: 1px solid #FFFFFF;
+}
+.ex2-1 p {
+ text-align: right;
+}
+.ex2-2 p {
+ text-align: right;
+}
+.ex2-3 p {
+ text-align: right;
+}
+
+/* award-section-start */
+
+.awards {
+    padding: 100px;
+}
+.awards-head {
+    text-align: center;
+}
+.awards-head p {
+    color: #FFFFFF80;
+}
+.bmad {
+    background-color: black;
+    margin-bottom: 30px;
+}
+.bmadi {
+    padding: 50px;
+}
+.bmad1 {
+    display: flex;
+    justify-content: space-between;
+}
+.bmad p {
+    color: #FFFFFF80;  
+}
+.uiux {
+    background-color: black;   
+}
+.uiuxi {
+    padding: 50px;
+}
+.uiux1 {
+    display: flex;
+    justify-content: space-between;
+}
+.uiux p {
+    color: #FFFFFF80;
+}
+
+/* award-section-end */
+
+/* My-oortfolio-start */
+
+.portfolio {
+    
+    
+}
+.pf-head{
+    text-align: center;
+    font-size: x-large;
+}
+.pf-head p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF80;
+}
+.portfolio-buttons {
+    letter-spacing: 15px;
+    padding: 40px;
+}
+
+.button-gray {
+    background-color: black;
+}
+
+.pfs1 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 200px;    
+}
+.pfs1r p {
+    color: #FFFFFF80;
+}
+
+.pfs2 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 200px;
+}
+.pfs2l p {
+    color: #FFFFFF80;
+}
+/* My-oortfolio-end */
+
+/* Form-section-start */
+
+.form-head {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.form-body {
+    background-image: url(image,logo/formBG.png);
+    font-family: Poppins;
+}
+/* .form-body-content {
+    margin-top: 100px;
+} */
+.form-body h1 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 0;
+
+}
+.form-value {
+    display: flex;
+    flex-direction: column;
+    
+}
+.form-1st {
+    
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.form-2nd {
+    margin: 0px 100px;
+}
+.form-2nd h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.input-field {
+    border: none;
+    width: 100%;
+    fill: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+}
+.form-bottom-button {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.button-a {
+    background: transparent;
+    border: 0;
+}
+.button-b {
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+
+}
+.form-span {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    
+
+}
+
+
+
+/* Form-section-end */
+
+/* Footer-section-start */
+.footer-container {
+    margin-top: 180px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Poppins;
+}
+
+.footer-container h1 {
+    color: #fd6f00;
+    margin: 0;
+    font-size: 64px;
+    font-weight: 700;
+
+}
+
+.footer-bottom {
+    color: white;
+}
+
+.social-icons {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    letter-spacing: 20px;
+    color: #FFFFFF;
+}
+
+.footer-bottom p {
+    background-color: #1e1e1e;
+    line-height: 100px;
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 400;
+    
+}
+.dc {
+    font-weight: 600;
+    color: #fd6f00;
+}
+/* Footer-section-end */
+
+.anchor-style {
+    text-decoration: none;
+    
+}
+.border-none {
+    border: none;
+}
+::placeholder {
+    color: white;
+}
+.star-image {
+    vertical-align: middle;
+}
